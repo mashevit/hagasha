@@ -21,3 +21,5 @@ jms queue for mdb: according to
  should be changed also in mdbtest.jsp
  
  for my own reference : repository path to put in eclipse: mashevit/hagasha(.git)
+ 
+ standalone-xts.xml
