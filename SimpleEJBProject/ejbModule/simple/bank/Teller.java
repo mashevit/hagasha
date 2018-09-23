@@ -50,7 +50,7 @@ public class Teller implements TellerRemote, TellerLocal {
 		return account.getId();
 
 	}//////////
-@Timeout////
+@Timeout//////
 public void Alarm(javax.ejb.Timer timer) {
 	Owner o= (Owner) timer.getInfo();
 	System.out.println("A new bank account was created belonging to "+o);
