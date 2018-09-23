@@ -49,7 +49,7 @@ public class Teller implements TellerRemote, TellerLocal {
 		timerService.createTimer(10000, owner);
 		return account.getId();
 
-	}//////
+	}////////
 @Timeout////
 public void Alarm(javax.ejb.Timer timer) {
 	Owner o= (Owner) timer.getInfo();
