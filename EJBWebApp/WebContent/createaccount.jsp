@@ -1,4 +1,4 @@
-<%-- <%@page import="simple.bank.TellerRemote"%>
+<%--  <%@page import="simple.bank.TellerRemote"%>
 <%@ page language="java" contentType="text/html; charset=windows-1255"
 	pageEncoding="windows-1255"%>
 <%@page import="javax.naming.*"%>
@@ -41,9 +41,9 @@
 		}
 	%>
 </body>
-</html>
+</html> --%>
 
-	<form action="createaccount.jsp">
+<%-- 	<form action="createaccount.jsp">
 		Enter a to do item: &nbsp; &nbsp;<INPUT type="text" name="item"><br>
 		<INPUT type="submit" name="todo" value="AddItem"> <INPUT
 			type="submit" name="todo" value="ListItems"> <INPUT
